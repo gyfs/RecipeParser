@@ -1,7 +1,15 @@
 {
-    "require-dev": {
-        "phpunit/dbunit": "^4.0",
-        "phpunit/phpunit": "^7.4",
-        "phpunit/php-invoker": "^2.0"
-    }
+    "name": "gyfs/recipe-parser",
+    "description": "A fork of a recipe parser that is no longer maintained.",
+    "type": "library",
+    "autoload": {
+        "classmap": ["lib/"]
+    },
+    "authors": [
+        {
+            "name": "Andrew Moenk",
+            "email": "amoenk@gmail.com"
+        }
+    ],
+    "require": {}
 }
